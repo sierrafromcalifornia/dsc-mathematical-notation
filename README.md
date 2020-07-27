@@ -17,12 +17,12 @@ You will be able to:
 When learning Data Science, running into dense, arcane-looking mathematical equations is an inevitability. For instance, here's an equation for a machine learning algorithm called a _Support Vector Machine_ that you'll learn about later in the course:
 
 
-$ \LARGE \text{minimize:} $
+<img src="https://render.githubusercontent.com/render/math?math=\LARGE \text{minimize:}">
 
-$$ \LARGE W(\alpha) = - \sum_{i=1}^{\ell}\alpha_i + \frac{1}{2}\sum_{i=1}^{\ell}\sum_{j=1}^{\ell}y_iy_j\alpha_i\alpha_j\textbf{x}_i\textbf{x}_j$$
+<img src="https://render.githubusercontent.com/render/math?math=\LARGE W(\alpha)=-\displaystyle\sum_{i=1}^{\ell}\alpha_i %2B \displaystyle\frac{1}{2}\sum_{i=1}^{\ell}\sum_{j=1}^{\ell}y_iy_j\alpha_i\alpha_j\textbf{x}_i\textbf{x}_j">
 
 
-$ \LARGE \text{subject to:} $ $$ \LARGE \sum_{\substack{i=1 \\ 0\leq\alpha_i\leq C}}^{\ell}y_i \alpha_i = 0 $$
+<img src="https://render.githubusercontent.com/render/math?math=\text{subject to:} $ $$ \LARGE \sum_{\substack{i=1 \\ 0\leq\alpha_i\leq C}}^{\ell}y_i \alpha_i = 0">
 
 
 <strong><em>Don't stare at this too long, or else you'll get a nosebleed...</em></strong></center>
@@ -39,7 +39,7 @@ The cheat sheet works wonders for most of the symbols included on that document.
 
 In the equation above, you'll notice the following symbol appears:
 
-$$\LARGE \sum $$
+<img src="https://render.githubusercontent.com/render/math?math=\sum">
 
 This is called **_Sigma Notation_**, and is a way of notating **_Summation_**. 
 
