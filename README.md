@@ -56,13 +56,13 @@ This is pretty simple code--just a for-loop that calculates the sum total of eve
 
 A mathematician would express the same algorithm using the following **_Sigma Notation_**:
 
-$$\LARGE \sum_{n=1}^{5} x $$
+<img src="https://render.githubusercontent.com/render/math?math=\LARGE\sum_{n=1}^{5}x">
 
 Pretty nifty, huh? The equation above says that we should start counting at 1, because we see `n=1` under the summation. We should stop once we've hit 5 (inclusive). Our sum totals the sum of each value of X for each step between `n=1` and up to (and including) `n=5`. 
 
 If we were to write it out explicitly, it would look like:
 
-$$\LARGE \sum_{n=1}^{5} x = 1 + 2 + 3 + 4 + 5 $$
+<img src="https://render.githubusercontent.com/render/math?math=\LARGE\sum_{n=1}^{5}x=1%2b2%2b3%2b4%2b5">
 
 This was the most simple example of summation since we were just adding in the individual value at each step in the example above. However, we can put anything we want to the right of the Sigma symbol, and this will be what happens at each step. For example, let's consider the following code:
 
@@ -78,11 +78,11 @@ for i in range(1, n+1):
 
 In the code above, we have a simple function that returns the square of a number, minus 2. This time, the for loop calculates the sum of that function called on every number between 1 and 5, inclusive.  We can write the exact same thing in Sigma Notation as follows:
 
-$$\LARGE \sum_{n=1}^{5}x^2-2$$
+<img src="https://render.githubusercontent.com/render/math?math=\LARGE\sum_{n=1}^{5}x^2-2">
 
 Which, if "unrolled" to show each step, would look like: 
 
-$$\LARGE \sum_{n=1}^{5}x^2-2 = (1^2 - 2) + (2^2 - 2) + (3^2 - 2) + (4^2 - 2) + (5^2 - 2) $$
+<img src="https://render.githubusercontent.com/render/math?math=\LARGE\sum_{n=1}^{5}x^2-2 =(1^2 - 2)%2b(2^2 - 2)%2b(3^2 - 2)%2b(4^2 - 2)%2b(5^2 - 2)">
 
 Finally, let's consider what this looks like when working with arrays. 
 
@@ -100,7 +100,7 @@ for i in range(len(w)):
 
 In the above example, we use the counter in our for loop as the index to get each subsequent element out of `w` and `x` and multiply them together. We can denote the same thing with Sigma Notation as follows:
 
-$$\LARGE \sum_{i=1}^{w} w_i x_i $$
+<img src="https://render.githubusercontent.com/render/math?math=\LARGE \sum_{i=1}^{w} w_i x_i">
 
 **_NOTE:_** Can you spot the difference? In our for loop, our index starts at 0, while in our Sigma Notation, our index starts at 1. In practice, they still mean the same thing--start at the first element in each list, multiply them, and add them to the sum, and then continue until we've done that for every item in the list `w`. The Sigma Notation starts at 1 because mathematicians start counting at 1, whereas programmers start counting at 0. **_Remember this--it'll save you from buggy code later on!_** 
 
@@ -118,11 +118,11 @@ for i in range(1, n+1):
 
 In Pi Notation, this would translate to:
 
-$$ \LARGE \prod_{i=1}^{5} i + 2$$
+<img src="https://render.githubusercontent.com/render/math?math=\LARGE\prod_{i=1}^{5} i %2b 2">
 
 Which, when written out completely, would be:
 
-$$ \LARGE \prod_{i=1}^{5} i + 2 = (1 + 2) * (2 + 2) * (3 + 2) * ( 4 + 2) * ( 5 + 2)$$
+<img src="https://render.githubusercontent.com/render/math?math=\LARGE \prod_{i=1}^{5} i %2b 2 = (1 %2b 2) * (2 %2b 2) * (3 %2b 2) * ( 4 %2b 2) * ( 5 %2b 2)">
 
 As you can see from the example above, there isn't too much of a difference between sigma and pi notation. The only difference is that with Sigma, you add the results of each step, whereas with Pi, you multiply them!
 
