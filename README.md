@@ -135,6 +135,3 @@ In the repo containing this notebook, you'll find a PDF document called `full-no
 In this lesson, we learned about how to read basic Sigma and Pi Notation.
 
 
-```python
-
-```
